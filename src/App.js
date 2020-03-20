@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
+import PhotoPage from "./components/photoPage";
+// import SearchBar from "./components/searchBar";
 
 function App() {
+
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <PhotoPage />
     </div>
   );
 }
